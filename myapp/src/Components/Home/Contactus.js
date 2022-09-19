@@ -1,6 +1,6 @@
-import React from 'react'
-import { BsFacebook,BsTwitter,BsYoutube,BsInstagram} from "react-icons/bs";
-import { MDBIcon } from 'mdb-react-ui-kit';
+import React from "react";
+import { BsFacebook, BsTwitter, BsYoutube, BsInstagram } from "react-icons/bs";
+// import { MDBIcon } from 'mdb-react-ui-kit';
 const Contactus = () => {
   return (
     <section id="contactus">
@@ -8,25 +8,24 @@ const Contactus = () => {
         <p>Food Court</p>
         <div className="media">
           <span className="melement">
-          <BsFacebook/>
+            <BsFacebook />
           </span>
           <span className="melement">
-            <BsTwitter/>
-
+            <BsTwitter />
           </span>
           <span className="melement">
-            <BsYoutube/>
+            <BsYoutube />
           </span>
           <span className="melement">
-            <BsInstagram/>
+            <BsInstagram />
           </span>
         </div>
       </div>
       <div className="copyright">
-      Copyright &copy; www.foodcourt.com. All rights reserved! 
+        Copyright &copy; www.foodcourt.com. All rights reserved!
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contactus
+export default Contactus;
